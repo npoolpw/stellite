@@ -1,6 +1,6 @@
-var api = "stl.npool.pw:8113;
+var api = "stl.npool.pw:8113";
 
-var poolHost = "1stl.npool.pw";
+var poolHost = "stl.npool.pw";
 
 var blockExplorer = "http://blockexplorer.pw/africoin";
 
