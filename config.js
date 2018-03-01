@@ -1,4 +1,4 @@
-var api = "stl.npool.pw:8113";
+var api = "http://stl.npool.pw:8113";
 
 var poolHost = "stl.npool.pw";
 
