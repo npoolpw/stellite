@@ -2,15 +2,15 @@ var api = "stl.npool.pw:8113";
 
 var poolHost = "stl.npool.pw";
 
-var blockExplorer = "http://blockexplorer.pw/africoin";
+var blockExplorer = "https://explorer.stellite.cash/";
 
 var cryptonatorWidget = ["BTC-USD", "XMR-USD"];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
 
-var blockchainExplorer = "http://blockexplorer.pw/{symbol}/?hash={id}#blockchain_block";
+var blockchainExplorer = "https://explorer.stellite.cash/tx/{id}";
 
-var transactionExplorer = "http://blockexplorer.pw/{symbol}/?hash={id}#blockchain_transaction";
+var transactionExplorer = "https://explorer.stellite.cash/block/{id}";
 
 var themeCss = "themes/default-theme.css";
 
