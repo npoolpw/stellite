@@ -4,7 +4,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
-    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="logo.png" rel="shortcut icon" type="image/x-icon" />
     <title>Mining Pool</title>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -255,6 +255,10 @@
     function updateIndex(){
         //updateText('coinName', lastStats.config.coin);
         var title = lastStats.config.coin;
+        if(title.indexOf('-')>-1)
+        {
+            title = title.substr(0,title.indexOf('-'));
+        }
         $("title").text(title.charAt(0).toUpperCase() + title.slice(1) + " Mining Pool");
         updateText('poolVersion', lastStats.config.version);
     }
@@ -326,6 +330,10 @@
 
                 <li><a class="hot_link" data-page="network.html" href="#network">
                     <i class="fa fa-chain"></i> Network
+                </a></li>
+
+                <li><a target="_blank" href="/">
+                    <i class="fa fa-list-ul"></i> Other Coin
                 </a></li>
 
             </ul>
