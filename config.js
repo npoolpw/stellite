@@ -4,7 +4,7 @@ var poolHost = "stl.npool.pw";
 
 var blockExplorer = "https://explorer.stellite.cash/";
 
-var cryptonatorWidget = ["BTC-USD", "XMR-USD"];
+var cryptonatorWidget = ["XTL-BTC"];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
 
