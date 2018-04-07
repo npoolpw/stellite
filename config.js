@@ -8,9 +8,9 @@ var cryptonatorWidget = ["BTC-USD","XTL-BTC"];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
 
-var blockchainExplorer = "https://explorer.stellite.cash/tx/{id}";
+var blockchainExplorer = "https://explorer.stellite.cash/block/{id}";
 
-var transactionExplorer = "https://explorer.stellite.cash/block/{id}";
+var transactionExplorer = "https://explorer.stellite.cash/tx/{id}";
 
 var themeCss = "themes/default-theme.css";
 
