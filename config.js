@@ -25,5 +25,6 @@ var networkStat = [
         ["cryptoknight.cc/stellite", "http://78.46.85.142:2889"],
         ["npool.pw/stellite", "http://stl.npool.pw:8113"],
         ["pool.stellite.cash", "http://pool.stellite.cash:8117"],
-        ["xtl.crypto-coins.club", "http://xtl.crypto-coins.club:8118"]
+        ["xtl.crypto-coins.club", "http://xtl.crypto-coins.club:8118"],
+        ["stellite.fairhash.org", "https://stellite.fairhash.org/api"]
 ];
