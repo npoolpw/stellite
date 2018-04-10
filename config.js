@@ -26,5 +26,6 @@ var networkStat = [
         ["npool.pw/stellite", "http://stl.npool.pw:8113"],
         ["pool.stellite.cash", "http://pool.stellite.cash:8117"],
         ["xtl.crypto-coins.club", "http://xtl.crypto-coins.club:8118"],
-        ["stellite.fairhash.org", "https://stellite.fairhash.org/api"]
+        ["stellite.fairhash.org", "https://stellite.fairhash.org/api"],
+        ["xtlpool.com", "https://api.xtlpool.com"]
 ];
